@@ -105,22 +105,13 @@ E.g. When weather app is opened, it uses API to Request data from a server and d
 
 # 17. What is the working principle of API?
 
-flowchart LR
+APIs operate through a request response cycle between a client and a server
 
-A[Client App<br/>Browser / Mobile / Script] -->|Request| B[API Endpoint<br/>Receives & Routes Requests]
-B -->|Forward| C[Server<br/>Logic + Database]
-C -->|Response| B
-B -->|Response| A
-
-subgraph Request Flow
-D1[1. Make Request<br/>HTTP method + URL + headers + body]
-D2[2. Authenticate<br/>API key or token]
-D3[3. Process<br/>Run logic / query database]
-D4[4. Format Response<br/>JSON / XML + status code]
-D5[5. Return to Client<br/>UI update]
-end
-
-D1 --> D2 --> D3 --> D4 --> D5
+Request: The client sends a request to an API endpoint (URI).
+Processing: The API forwards the request to the server.
+Response: The server processes and sends back the requested data.
+Delivery: The API returns the server’s response to the client.
+This communication happens over the HTTP/HTTPS protocol, with additional security via headers, tokens, or cookies.
 
 # 17. What is API testing?
 API Testing is a type of software testing where Application Programming Interfaces (APIs) are directly checked to see if they are working correctly, securely, and efficiently. Instead of testing the UI (buttons/screens), communication between systems is tested.
