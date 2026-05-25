@@ -47,6 +47,7 @@ A document that defines testing scope, strategy, resources, and schedule.
 - Example: Testing a login function that validates username/password.
 
 ---
+
 ## b) Integration Testing
 
 - What it is: Testing interaction between multiple modules.
@@ -57,7 +58,7 @@ A document that defines testing scope, strategy, resources, and schedule.
 
 - Example: Login module working with database authentication system.
 
-  ---
+---
   
 ## c) System Testing
 
@@ -97,7 +98,44 @@ High-level document describing testing approach for the whole project.
 Manual: Human executes test cases
 Automation: Tools/scripts execute test cases (faster, reusable)
 
-# 16. What is API testing?
-API Testing is a type of software testing where Application Programming Interfaces (APIs) are directly checked to see if they are working correctly, securely, and efficiently
+# 16. What is API?
+An API (Application Programming Interface) is a set of rules and protocols that allows different software applications to communicate with each other. It takes a request from one system, sends it to another system, and returns the response.
 
+E.g. When weather app is opened, it uses API to Request data from a server and displays the response.
 
+# 17. What is the working principle of API?
+
+flowchart LR
+
+A[Client App<br/>Browser / Mobile / Script] -->|Request| B[API Endpoint<br/>Receives & Routes Requests]
+B -->|Forward| C[Server<br/>Logic + Database]
+C -->|Response| B
+B -->|Response| A
+
+subgraph Request Flow
+D1[1. Make Request<br/>HTTP method + URL + headers + body]
+D2[2. Authenticate<br/>API key or token]
+D3[3. Process<br/>Run logic / query database]
+D4[4. Format Response<br/>JSON / XML + status code]
+D5[5. Return to Client<br/>UI update]
+end
+
+D1 --> D2 --> D3 --> D4 --> D5
+
+# 17. What is API testing?
+API Testing is a type of software testing where Application Programming Interfaces (APIs) are directly checked to see if they are working correctly, securely, and efficiently. Instead of testing the UI (buttons/screens), communication between systems is tested.
+
+E.g. When logged into an app, UI sends username/password to API → API checks database → API returns success/failure response
+
+# 18. What is checked in API testing?
+- Correct response is returned
+- Data is accurate
+- API handles errors properly
+- Response time is good
+- Security (authorization, authentication)
+
+# 19. What are some Common API methods tested?
+- GET → fetch data
+- POST → send data
+- PUT → update data
+- DELETE → remove data
