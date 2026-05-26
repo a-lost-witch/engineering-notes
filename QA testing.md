@@ -202,7 +202,8 @@ Selenium scripts can be written using:
 - Ruby
 
 ## Example in Python:
-```from selenium import webdriver
+```python
+from selenium import webdriver
 
 driver = webdriver.Chrome()
 
@@ -210,7 +211,8 @@ driver.get("https://example.com")
 
 driver.find_element("id", "username").send_keys("admin")
 driver.find_element("id", "password").send_keys("1234")
-driver.find_element("id", "login").click()```
+driver.find_element("id", "login").click()
+```
 
 ### This script:
 - Opens browser
@@ -273,23 +275,46 @@ It adds:
 
 ## Example:
 In JavaScript,
-```let age = 25;
-age = "hello" //allowed;```
+```javascript
+let age = 25;
+age = "hello" //allowed;
+```
 
 JavaScript allows this because it is dynamically typed. But, this can cause bugs later Because the variable age first stores a number, but later becomes a string.
 
 Say, later in program,
-```let age = 25;
+```javascript
+let age = 25;
 age = "hello";
-console.log(age + 5);```
+console.log(age + 5);
+```
 
 Instead of 30, output becomes hello5.
 
 But TypeScript catches the mistake early, before running the code,
-```let age: number = 25;
-age = "hello"; // Error```
+```ltypescript
+let age: number = 25;
+age = "hello"; // Error
+```
 
 This is because, JavaScript variables do not have fixed types. The variable "age" is just a container that can hold number , string , object , boolean etc.
-Whereas, TypeScript adds static type checking to restrict that behavior, giving compile-time error.It either automatically infers age as number from first line or explicit type is needed to be declared.w
+Whereas, TypeScript adds static type checking to restrict that behavior, giving compile-time error.It either automatically infers age as number from first line or explicit type is needed to be declared.
 
+# 26. What is CI/CD pipeline?
+CI/CD pipelines are a way to automate building, testing, and deploying software so developers can release updates faster and more reliably.
 
+### a) Continuous Integration (CI):
+Developers frequently merge their code into a shared repository (like GitHub), and every change is automatically tested. Here,
+- Code is pushed to GitHub
+- Automated build runs
+- Automated tests run (unit tests, integration tests)
+- If something breaks → developer is notified immediately
+
+### b) Continuous Delivery (CD):
+After CI, the tested code is automatically prepared for release. Here,
+- Code is built and tested
+- Packaged and moved to staging environment
+- Ready for manual approval to release
+
+### c) Continuous Deployment:
+Every successful code change is automatically deployed to production.
