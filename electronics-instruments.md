@@ -175,3 +175,42 @@ E.g.: When giving pure sine wave input of 1KHz frequency, output should also be 
 
 ---
 
+# 20. What is LCR meter?
+An LCR meter is an electronic test instrument used to measure:
+- Inductance (L)
+- Capacitance (C)
+- Resistance (R)
+
+An LCR meter is mainly used to test and characterize electronic components such as:
+
+- Resistors
+- Capacitors
+- Inductors
+- Transformers
+- Coils
+- RF components
+
+# 21. Explain Working Principle of LCR meter.
+Sine wave generator produces small, stable AC signal at selected frequency. AC is used to get continuous change and phase info. The LCR meter then measures applied voltage and Resultant current. Impedance is calculated as Z = V/I.
+
+AC Signal is Used because Capacitors and inductors behave differently with frequency. Everything depends on phase to distinguish the impedance component. Phase angle is the angular shift between two waveforms, usually voltage and current.
+
+### Identification of component:
+If phase angle θ = 0°, LCR meter identifies component as resistor (since no phase difference is present between V and applied  I). Here, Z = R (no reactance)
+
+If phase angle = +ve ≈ +90°, it is inductive. For Induction, current lags (voltage graph starts first). So, current wave is shifted right, as inductor (measured in Henry) is the cause that opposes change in current.
+
+If phase angle  = -ve ≈ -90°, it is capacitive. Here, current leads, i.e. movement of charge starts first.
+
+### Measurement of Component:
+Now, for inductive reactance, we calculate it as X<sub>L</sub> = V/I and X<sub>L</sub> = 2πfL where f= frequency.
+So we get value of L = X<sub>L</sub>/ 2πfL.
+
+Similarly, for capacitive reactance, X<sub>C</sub> = 1/(2πf<sub>C</sub>) and C =1/(2πX<sub>C</sub>)
+
+### Frequency Selection:
+For inductance measurement, high-frequency AC is preferred because inductive reactance dominates while capacitive reactance becomes very low (almost short circuit), and vice versa.
+
+Since, high flow of AC current = higher opposition = high inductive reactance.
+With increase in frequency, capacitor's opposition to current decreases. (X <sub>L</sub>\(\propto \)f and X<sub>C</sub>\(\propto \)\1/f)
+
