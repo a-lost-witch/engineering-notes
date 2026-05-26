@@ -1,3 +1,3 @@
 # engineering-notes
 
-Question Answers on Various subjects like Electronics Instruments (Test and Measurement Equipment), VLSI, QA Testing (software Quality Assurance), AI/ML, Web development etc
+Question Answers on Various subjects like Electronics Instruments (Test and Measurement Equipment), VLSI, QA Testing (software Quality Assurance), AI/ML, Web development, IOT (Internet of Things) etc
