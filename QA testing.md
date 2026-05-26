@@ -83,7 +83,7 @@ A document that defines testing scope, strategy, resources, and schedule.
 Testing done to ensure new code changes do not affect existing functionality.
 
 # 11. What is smoke testing?
-Basic testing to check if the build is stable enough for further testing.
+Basic testing to check if the build is stable enough for further testing. It is the Initial verification of critical features before detailed testing. E.g. For a login app, Can user open the app? Can user log out? If smoke testing fails Build is rejected and Sent back to developers.
 
 # 12. What is sanity testing?
 Quick testing to verify specific functionality after small changes or bug fixes.
@@ -130,3 +130,166 @@ E.g. When logged into an app, UI sends username/password to API → API checks d
 - POST → send data
 - PUT → update data
 - DELETE → remove data
+
+# 20. What are some popular SDLC methods?
+| Model     | Description                         |
+| --------- | ----------------------------------- |
+| Waterfall | Sequential approach                 |
+| Agile     | Iterative and flexible              |
+| Spiral    | Risk-focused model                  |
+| V-Model   | Testing at every stage              |
+| DevOps    | Continuous integration & deployment |
+
+# 21. What is Jira?
+Jira is a project management and issue-tracking tool (like CRM) widely used in software testing, development, Agile, and DevOps teams.
+
+### Testers use Jira to:
+
+- Report bugs
+- Track defects
+- Assign issues to developers
+- Monitor testing progress
+- Manage test cases and sprints
+- Generate reports
+
+### Example Workflow:
+- Tester finds a bug in login page
+- Tester creates a Jira ticket
+- Developer receives the issue
+- Developer fixes the bug
+- Tester retests it
+- Ticket is closed
+
+# 22. What is Selenium?
+Selenium is an open-source automation testing framework used to automate web browsers.
+
+## It is mainly used for:
+- Web application testing
+- Repetitive browser tasks
+- UI automation
+- Regression testing
+
+## What Selenium Does
+Selenium can automatically:
+- Open a browser
+- Click buttons
+- Enter text
+- Submit forms
+- Verify webpage content
+- Test websites
+
+## Example:
+Instead of manually testing login every time:
+- Open website
+- Enter username/password
+- Click login
+- Check dashboard
+
+ ## Supported Browsers
+Selenium works with:
+
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Safari
+
+## Supported Languages
+Selenium scripts can be written using:
+- Python
+- Java
+- C#
+- JavaScript
+- Ruby
+
+## Example in Python:
+```from selenium import webdriver
+
+driver = webdriver.Chrome()
+
+driver.get("https://example.com")
+
+driver.find_element("id", "username").send_keys("admin")
+driver.find_element("id", "password").send_keys("1234")
+driver.find_element("id", "login").click()```
+
+### This script:
+- Opens browser
+- Opens website
+- Enters login details
+- Clicks login
+
+## Selenium Components:
+| Component          | Purpose                       |
+| ------------------ | ----------------------------- |
+| Selenium WebDriver | Main browser automation tool  |
+| Selenium IDE       | Record/playback testing       |
+| Selenium Grid      | Run tests on multiple systems |
+| Selenium RC        | Older deprecated version      |
+
+## Advantages:
+- Free and open source
+- Supports many browsers
+- Supports many languages
+- Widely used in QA testing
+- Good for automation testinh
+
+## Limitations
+- Mainly for web applications
+- Cannot directly test desktop apps
+- Requires programming knowledge
+- Dynamic webpages can be tricky
+
+# 23. What is framework?
+A framework is a pre-built structure or foundation that helps developers build software faster and in an organized way.
+
+Instead of creating everything from scratch, a framework provides:
+- Ready-made code
+- Rules/structure
+- Tools and libraries
+- Reusable components
+
+# 24. Example Frameworks:
+## Web Development:
+| Framework        | Language   |
+| ---------------- | ---------- |
+| Django           | Python     |
+| React            | JavaScript |
+| Angular          | TypeScript |
+| Spring Framework | Java       |
+## Testing Framework:
+| Framework | Purpose            |
+| --------- | ------------------ |
+| Selenium  | Browser automation |
+| TestNG    | Test execution     |
+| PyTest    | Python testing     |
+
+# 25. What is typescript?
+TypeScript is a programming language developed by Microsoft that is built on top of JavaScript.
+It adds:
+- Types
+- Better error checking
+- Modern coding features
+- Easier large-project management
+
+## Example:
+In JavaScript,
+```let age = 25;
+age = "hello" //allowed;```
+
+JavaScript allows this because it is dynamically typed. But, this can cause bugs later Because the variable age first stores a number, but later becomes a string.
+
+Say, later in program,
+```let age = 25;
+age = "hello";
+console.log(age + 5);```
+
+Instead of 30, output becomes hello5.
+
+But TypeScript catches the mistake early, before running the code,
+```let age: number = 25;
+age = "hello"; // Error```
+
+This is because, JavaScript variables do not have fixed types. The variable "age" is just a container that can hold number , string , object , boolean etc.
+Whereas, TypeScript adds static type checking to restrict that behavior, giving compile-time error.It either automatically infers age as number from first line or explicit type is needed to be declared.w
+
+
