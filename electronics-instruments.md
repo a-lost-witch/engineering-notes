@@ -364,5 +364,19 @@ Converts input AC voltage to double DC voltage
 Ballast limits current in circuit
 
 ---
- # 20. What is line voltage?
- Voltage between two phases/ sockets. It is around 400V while with neutral, phase voltage is 220 V.
+
+ # 20. What are line and phase voltage?
+Line voltage is the voltage measured between two power lines (phase conductors) in an electrical power system. Phase voltage is the voltage measured between a single phase and the neutral point in an AC power system.
+
+In a 3-phase system,
+Line Voltage → voltage between any two phases
+Phase Voltage → voltage between one phase and neutral
+
+### Example in India:
+Typical 3-phase supply:
+Phase voltage ≈ 230 V
+Line voltage ≈ 400 V
+
+
+---
+
