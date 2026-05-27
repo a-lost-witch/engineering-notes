@@ -357,3 +357,12 @@ With increase in frequency, capacitor's opposition to current decreases. (X <sub
 
 # 28. What is voltage doubler?
 Converts input AC voltage to double DC voltage
+
+---
+
+# 29. What are ballasts?
+Ballast limits current in circuit
+
+---
+ # 20. What is line voltage?
+ Voltage between two phases/ sockets. It is around 400V while with neutral, phase voltage is 220 V.
