@@ -354,3 +354,6 @@ Since, high flow of AC current = higher opposition = high inductive reactance.
 With increase in frequency, capacitor's opposition to current decreases. (X <sub>L</sub>\(\propto \)f and X<sub>C</sub>∝1/f)
 
 ---
+
+# 28. What is voltage doubler?
+Converts input AC voltage to double DC voltage
