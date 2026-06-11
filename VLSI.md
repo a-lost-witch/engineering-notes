@@ -25,5 +25,50 @@ PMOS → strong pull-up (connects to VDD)
 ✔ Very low static power consumption
 ✔ High noise immunity
 ✔ High density (more transistors per chip)
+
+# 6. Comparison of MOSFET Regions
+
+| Region | Condition | Behavior |
+|----------|----------|----------|
+| Cutoff | \(V_{GS}<V_T\) | OFF switch |
+| Triode (Linear) | \(V_{GS}>V_T\), \(V_{DS}<V_{GS}-V_T\) | Resistor-like |
+| Saturation | \(V_{GS}>V_T\), \(V_{DS}\ge V_{GS}-V_T\) | Current source-like |
+
+# 7. What is triode region in mosfet and why is it called triode?
+The **triode region** (also called the **linear region** or **ohmic region**) is the operating region where a MOSFET behaves approximately like a **voltage-controlled resistor**.
+
+For an NMOS, the conditions are:
+
+$$
+V_{GS} > V_T
+$$
+
+and
+
+$$
+V_{DS} < V_{GS} - V_T
+$$
+
+where:
+
+- \(V_{GS}\) = Gate-to-Source voltage
+- \(V_{DS}\) = Drain-to-Source voltage
+- \(V_T\) = Threshold voltage
+
+### What Happens Physically?
+
+When \(V_{GS}\) exceeds the threshold:
+
+- A channel forms between source and drain.
+- If \(V_{DS}\) is small, the channel exists along the entire length of the transistor.
+- Current flows through this channel like it would through a resistor.
+
+```
+Source ========= Drain
+      Channel
+```
+
+No pinch-off occurs.
+
 ✔ Scalable for modern VLSI (nm technology nodes)
 
