@@ -51,24 +51,37 @@ $$
 
 where:
 
-- \(V_{GS}\) = Gate-to-Source voltage
+- V<sub>{GS}</sub> = Gate-to-Source voltage
 - \(V_{DS}\) = Drain-to-Source voltage
 - \(V_T\) = Threshold voltage
 
-### What Happens Physically?
+# 8. Why is PMOS called Pull up and NMOS pull down?
+For an NMOS, the source is usually the lowest-voltage terminal.
 
-When \(V_{GS}\) exceeds the threshold:
+Suppose:
 
-- A channel forms between source and drain.
-- If \(V_{DS}\) is small, the channel exists along the entire length of the transistor.
-- Current flows through this channel like it would through a resistor.
+Source = 0 V (ground)
+Gate = 5 V
 
-```
-Source ========= Drain
-      Channel
-```
+Then:
+V<sub>GS</sub> =5−0=5V
 
-No pinch-off occurs.
+When the NMOS turns ON, a conductive channel forms.
+Now the output node and ground are connected.
+Since the output node is at a higher electric potential than ground, electrons flow through the NMOS toward ground (equivalently, charge leaves the node).
+As charge leaves the output node:
+Voltage decreases from 5 V → 4 V → 3 V → 2 V → 1 V → 0 V
+which is a perfect logic 0.
 
-✔ Scalable for modern VLSI (nm technology nodes)
+Thus "pulling" the voltage down.
+
+Now suppose if an NMOS is connected to pull a node UP toward VDD.
+
+Source = 0 V (since, connected to ground).
+
+As the output rises from 0V to 5V, the voltage difference across the transistor keeps shrinking.
+Eventually the output gets stuck at roughly at V<sub>DD</sub>−V<sub>TH</sub> (since, V<sub>DD</sub> has to be positive to pull the electrons) and can never be V<sub>DD</sub>.
+
+This is why NMOS is said to pass a strong 0 but a weak 1 and PMOS has the opposite behavior.
+	​
 
