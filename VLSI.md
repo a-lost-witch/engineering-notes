@@ -22,8 +22,8 @@ NMOS → strong pull-down (connects to GND)
 PMOS → strong pull-up (connects to VDD)
 
 # 5. Why is CMOS widely used?
-✔ Very low static power consumption
-✔ High noise immunity
+✔ Very low static power consumption<br>
+✔ High noise immunity<br>
 ✔ High density (more transistors per chip)
 
 # 6. Comparison of MOSFET Regions
@@ -87,3 +87,11 @@ This is why NMOS is said to pass a strong 0 but a weak 1 and PMOS has the opposi
 
 # 9. Explain Latch vs Flip flop.
 Latch monitors input as long as enable pin is enabled (level triggered) whereas Flip flop monitors input only when clock pulse changes (edge triggered)
+
+# 10. Explain setup time and hold time in flip flop
+Setup time (tsu) is the minimum time that the data input must be stable before the active clock edge for the flip-flop to reliably capture it. Hold time (th) is the minimum time the data input must remain stable after the active clock edge. Violating either constraint causes a metastability condition, where the output may settle unpredictably.
+
+
+# 11. Explain Metastability.
+Metastability is a condition where a flip-flop cannot immediately decide whether to store a 0 or a 1.
+It occurs when setup or hold time requirements are violated, causing the output to take an unpredictable amount of time to settle to a valid logic 0 or logic 1.
