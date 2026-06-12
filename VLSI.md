@@ -85,3 +85,5 @@ Eventually the output gets stuck at roughly at V<sub>DD</sub>−V<sub>TH</sub> (
 This is why NMOS is said to pass a strong 0 but a weak 1 and PMOS has the opposite behavior.
 	​
 
+# 9. Explain Latch vs Flip flop.
+Latch monitors input as long as enable pin is enabled (level triggered) whereas Flip flop monitors input only when clock pulse changes (edge triggered)
