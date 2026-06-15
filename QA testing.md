@@ -318,3 +318,34 @@ After CI, the tested code is automatically prepared for release. Here,
 
 ### c) Continuous Deployment:
 Every successful code change is automatically deployed to production.
+
+# 27. What is edge case?
+An edge case is a situation that occurs at the extreme boundaries of valid input, operating conditions.
+
+**Examples:**
+
+1. Age Input Field If valid age is 1–120:
+Normal cases:
+
+25
+40
+80
+
+Edge cases:
+
+1 (minimum valid value)
+120 (maximum valid value)
+0 (just below minimum)
+121 (just above maximum)
+2. Password Length
+
+Requirement: Password must be 8–20 characters.
+
+Edge cases:
+
+7 characters
+8 characters
+20 characters
+21 charactersns, or user behavior.
+
+
