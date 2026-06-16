@@ -324,28 +324,67 @@ An edge case is a situation that occurs at the extreme boundaries of valid input
 
 **Examples:**
 
-1. Age Input Field If valid age is 1–120:
+a. Age Input Field If valid age is 1–120:
 Normal cases:
-
 25
 40
 80
 
 Edge cases:
-
 1 (minimum valid value)
 120 (maximum valid value)
 0 (just below minimum)
 121 (just above maximum)
-2. Password Length
 
-Requirement: Password must be 8–20 characters.
+b. Password Length Requirement: Password must be 8–20 characters.
 
 Edge cases:
-
 7 characters
 8 characters
 20 characters
-21 charactersns, or user behavior.
+21 characters
 
+# 28. Explain Characteristics of a Good Test Case.
+A good test case is:
+- Simple and clear
+- Has a unique ID
+- Contains defined preconditions
+- Specifies test data
+- Lists execution steps
+- Has expected results
+- Covers boundary and error conditions
+- Is repeatable and maintainable
+
+### Example:
+**Feature:** Login
+**Test Case:** Login with valid credentials
+**Preconditions:** User account exists.
+**Input:** Valid username and password.
+**Steps:** Enter credentials → Click Login.
+**Expected Result:** User is redirected to dashboard.
+**Properties satisfied:** Correct, clear, repeatable, traceable, maintainable.
+These are the properties most commonly expected in professional software testing and QA processes.
+
+# 29. What is positive flow and negetive flow?
+**Positive flow:** A positive flow (or happy path) is a test scenario where the user performs the expected actions with valid inputs, and the system behaves exactly as intended.
+**Negative Flow:** Tests invalid or unexpected inputs.
+
+**Example: Login Feature**
+**Requirement:** Users can log in with a valid username and password.
+**Positive flow:**
+- Open login page.
+- Enter valid username.
+- Enter valid password.
+- Click Login.
+- User is successfully redirected
+**Expected Result:** Login succeeds
+
+**Negative Flow:**
+Tests invalid or unexpected inputs.
+**Examples:**
+- Wrong password
+- Invalid username
+- Empty username
+- Empty password
+**Expected Result:** Appropriate error message is shown.
 
