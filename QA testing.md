@@ -388,3 +388,100 @@ Tests invalid or unexpected inputs.
 - Empty password
 **Expected Result:** Appropriate error message is shown.
 
+# 30 What is load testing?
+Load testing is a type of **performance testing** used to evaluate how a system behaves under an expected number of users, requests, or transactions. The primary goal is to ensure that the application can handle normal anticipated traffic while maintaining acceptable performance levels.
+## Example
+Suppose an EV charging application is expected to support **1,000 concurrent users**.
+During load testing, 1,000 virtual users are simulated, and the following metrics are monitored:
+* Response time
+* Throughput (requests per second)
+* CPU utilization
+* Memory utilization
+* Error rates
+* Database performance
+
+## Common Use Cases
+
+* 500 users logging into a website simultaneously
+* 1,000 customers placing orders on an e-commerce platform
+* 10,000 API requests per minute
+* Multiple EV charging stations sending status updates concurrently
+
+## Benefits of Load Testing
+
+Load testing helps identify:
+
+* Performance bottlenecks
+* Slow response times
+* Database issues
+* Memory leaks
+* Server capacity limitations
+* Application instability under expected traffic
+
+## Popular Load Testing Tools
+
+* Apache JMeter
+* LoadRunner
+* k6
+* Gatling
+
+# 31. Stress Testing
+Stress testing is a type of **performance testing** used to evaluate how a system behaves when it is subjected to workloads beyond its expected operating capacity.The primary goal is to determine the system's breaking point and assess its ability to recover after failure, i.e. Stress testing is a non-functional testing technique used to evaluate an application's stability, reliability, and recovery capability by subjecting it to workloads beyond its expected operating limits.
+
+## Example
+
+Suppose an EV charging application is designed to support **1,000 concurrent users**.
+
+During stress testing, the load is gradually increased beyond the expected limit, such as:
+
+* 2,000 concurrent users
+* 5,000 concurrent users
+* 10,000 concurrent users
+
+The following metrics are monitored:
+
+* Response time
+* Error rates
+* CPU utilization
+* Memory utilization
+* System crashes
+* Recovery time after failure
+
+## Common Use Cases
+
+* Simulating traffic spikes during a flash sale
+* Testing application behavior during peak usage periods
+* Evaluating server stability under excessive load
+* Identifying system bottlenecks and failure points
+* Assessing recovery mechanisms after a crash
+
+## Benefits of Stress Testing
+
+Stress testing helps identify:
+
+* System breaking points
+* Performance bottlenecks
+* Resource limitations
+* Application crashes
+* Data loss risks
+* Recovery and failover issues
+
+## Popular Stress Testing Tools
+
+* Apache JMeter
+* LoadRunner
+* k6
+* Gatling
+
+
+# 32. Compare Load Testing vs Stress Testing
+
+| Load Testing                                 | Stress Testing                           |
+| -------------------------------------------- | ---------------------------------------- |
+| Tests expected workload                      | Tests beyond expected workload           |
+| Evaluates normal system performance          | Determines system breaking point         |
+| Focuses on stability under normal conditions | Focuses on recovery and failure behavior |
+| Example: 1,000 concurrent users              | Example: 10,000 concurrent users         |
+
+
+
