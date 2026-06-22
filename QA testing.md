@@ -483,5 +483,38 @@ Stress testing helps identify:
 | Focuses on stability under normal conditions | Focuses on recovery and failure behavior |
 | Example: 1,000 concurrent users              | Example: 10,000 concurrent users         |
 
+# 33.What is Playright?
+Playwright is an open-source browser automation and end-to-end (E2E) testing framework developed by Microsoft Playwright. It allows developers and QA engineers to automate user actions in web browsers such as Chrome, Edge, Firefox, and Safari (WebKit) using a single API.
+
+### Example in Java:
+
+```
+const { test, expect } = require('@playwright/test');
+
+test('Check title', async ({ page }) => {
+  await page.goto('https://example.com');
+  await expect(page).toHaveTitle(/Example/);
+});
+```
+
+Playright:
+- Supports Chromium, Firefox, and WebKit with the same test script.
+- Automatically waits for elements to become clickable or visible.
+- Runs tests in parallel for faster execution.
+- Supports JavaScript, TypeScript, Python, Java, and .NET.
+- Includes screenshots, videos, tracing, and debugging tools
+
+# 34. What is Selenium?
+
+# 35. Explain Selenium vs Java.
+| Feature         | Playwright              | Selenium                  |
+| --------------- | ----------------------- | ------------------------- |
+| Setup           | Easier                  | More configuration        |
+| Speed           | Faster                  | Usually slower            |
+| Auto-wait       | Built-in                | Manual waits often needed |
+| Browser Support | Chrome, Firefox, Safari | Almost all browsers       |
+| Modern Web Apps | Excellent               | Good                      |
+
+
 
 
