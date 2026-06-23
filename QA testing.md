@@ -515,6 +515,10 @@ Playright:
 | Browser Support | Chrome, Firefox, Safari | Almost all browsers       |
 | Modern Web Apps | Excellent               | Good                      |
 
+# 36. Explain Playwright Locator.
+A locator in Playwright is an object used to find, interact with, and verify web elements on a page. Instead of directly searching for an element once, Playwright locators continuously re-evaluate the element and automatically wait for it to become available, visible, and actionable.
+For example: await page.locator('#login-btn').click();
+Here, Playwright finds the element with ID login-btn and waits for it to be ready before clicking.
 
 
-
+#
