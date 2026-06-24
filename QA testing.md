@@ -521,4 +521,15 @@ For example: await page.locator('#login-btn').click();
 Here, Playwright finds the element with ID login-btn and waits for it to be ready before clicking.
 
 
-#
+# 37. What is npm?
+npm stands for Node Package Manager. It's the tool that comes with Node.js and is used to:
+- Install packages/libraries
+- Manage project dependencies
+- Run scripts and commands
+
+### Common npm Commands
+Initialize a project :
+```
+npm init -y
+```
+Creates: package.json
