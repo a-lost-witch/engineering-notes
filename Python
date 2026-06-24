@@ -1,0 +1,366 @@
+## 1. What is a Variable?
+
+### Answer:
+A variable is a named storage location used to store data in a program. The value of a variable can change during program execution.
+
+### Example:
+```python
+name = "Adrita"
+age = 22
+```
+
+---
+
+## 2. What are Data Types in Python?
+
+### Answer:
+Data types define the type of data that can be stored in a variable.
+
+Common data types:
+- int (Integer)
+- float (Decimal Number)
+- str (String)
+- bool (Boolean)
+- list
+- tuple
+- set
+- dict
+
+### Example:
+```python
+age = 22          # int
+salary = 35000.5 # float
+name = "Adrita"  # str
+is_active = True # bool
+```
+
+---
+
+## 3. What is a Function?
+
+### Answer:
+A function is a block of reusable code that performs a specific task.
+
+### Example:
+```python
+def greet(name):
+    return f"Hello, {name}"
+
+print(greet("Adrita"))
+```
+
+### Output:
+```
+Hello, Adrita
+```
+
+---
+
+## 4. Why are Functions Used?
+
+### Answer:
+Functions help:
+- Reuse code
+- Reduce duplication
+- Improve readability
+- Simplify maintenance
+
+### Example:
+```python
+def add(a, b):
+    return a + b
+
+print(add(10, 20))
+```
+
+---
+
+## 5. What is a Loop?
+
+### Answer:
+A loop is used to execute a block of code repeatedly.
+
+Types of loops:
+- for loop
+- while loop
+
+### Example:
+```python
+for i in range(5):
+    print(i)
+```
+
+### Output:
+```
+0
+1
+2
+3
+4
+```
+
+---
+
+## 6. What is a for Loop?
+
+### Answer:
+A for loop iterates over a sequence such as a list, tuple, string, or range.
+
+### Example:
+```python
+fruits = ["Apple", "Banana", "Mango"]
+
+for fruit in fruits:
+    print(fruit)
+```
+
+---
+
+## 7. What is a while Loop?
+
+### Answer:
+A while loop executes as long as a condition remains True.
+
+### Example:
+```python
+count = 1
+
+while count <= 5:
+    print(count)
+    count += 1
+```
+
+---
+
+## 8. What is a Class?
+
+### Answer:
+A class is a blueprint for creating objects. It defines properties (attributes) and behaviors (methods).
+
+### Example:
+```python
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+student1 = Student("Adrita")
+print(student1.name)
+```
+
+### Output:
+```
+Adrita
+```
+
+---
+
+## 9. What is an Object?
+
+### Answer:
+An object is an instance of a class.
+
+### Example:
+```python
+class Car:
+    pass
+
+car1 = Car()
+```
+
+Here:
+- Car → Class
+- car1 → Object
+
+---
+
+## 10. What is the __init__ Method?
+
+### Answer:
+The __init__ method is a constructor that runs automatically when an object is created.
+
+### Example:
+```python
+class Employee:
+    def __init__(self, name):
+        self.name = name
+
+emp = Employee("John")
+```
+
+---
+
+## 11. What is File Handling?
+
+### Answer:
+File handling is the process of creating, reading, writing, and modifying files.
+
+Common modes:
+- r → Read
+- w → Write
+- a → Append
+- x → Create
+
+---
+
+## 12. How to Read a File?
+
+### Example:
+```python
+file = open("sample.txt", "r")
+content = file.read()
+print(content)
+file.close()
+```
+
+---
+
+## 13. How to Write to a File?
+
+### Example:
+```python
+file = open("sample.txt", "w")
+file.write("Hello World")
+file.close()
+```
+
+---
+
+## 14. What is the Difference Between 'w' and 'a' Mode?
+
+### Answer:
+
+| Mode | Description |
+|--------|------------|
+| w | Overwrites existing content |
+| a | Adds content at the end |
+
+### Example:
+```python
+file = open("sample.txt", "a")
+file.write("New Line")
+file.close()
+```
+
+---
+
+## 15. What is a Dictionary?
+
+### Answer:
+A dictionary stores data in key-value pairs.
+
+### Example:
+```python
+student = {
+    "name": "Adrita",
+    "age": 22,
+    "city": "Kolkata"
+}
+
+print(student["name"])
+```
+
+### Output:
+```
+Adrita
+```
+
+---
+
+## 16. What is a Key-Value Pair?
+
+### Answer:
+A key-value pair consists of:
+- Key → Unique identifier
+- Value → Data associated with the key
+
+### Example:
+```python
+user = {
+    "username": "admin",
+    "password": "12345"
+}
+```
+
+Here:
+- username → Key
+- admin → Value
+
+---
+
+## 17. What is the Difference Between a List and a Tuple?
+
+### Answer:
+
+| List | Tuple |
+|--------|--------|
+| Mutable | Immutable |
+| Uses [] | Uses () |
+| Can be modified | Cannot be modified |
+
+### Example:
+```python
+my_list = [1, 2, 3]
+my_tuple = (1, 2, 3)
+```
+
+---
+
+## 18. What is the Difference Between == and = ?
+
+### Answer:
+
+| Operator | Purpose |
+|-----------|----------|
+| = | Assignment |
+| == | Comparison |
+
+### Example:
+```python
+x = 10
+
+if x == 10:
+    print("Equal")
+```
+
+---
+
+## 19. What is a Return Statement?
+
+### Answer:
+The return statement sends a value back from a function.
+
+### Example:
+```python
+def multiply(a, b):
+    return a * b
+
+result = multiply(5, 4)
+print(result)
+```
+
+### Output:
+```
+20
+```
+
+---
+
+## 20. What is the Difference Between print() and return?
+
+### Answer:
+
+| print() | return |
+|----------|---------|
+| Displays output | Sends value back |
+| Used for viewing | Used for processing |
+
+### Example:
+```python
+def test():
+    print("Hello")
+
+def test2():
+    return "Hello"
+```
+
+## 21. What is key value vs variable value?
