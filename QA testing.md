@@ -533,3 +533,6 @@ Initialize a project :
 npm init -y
 ```
 Creates: package.json
+
+# 38. How does Playwright work?
+Playwright works by controlling a real browser through its automation APIs. A test script launches a browser, creates an isolated browser context, opens a page, and performs actions such as clicking buttons or entering text. Before interacting with an element, Playwright automatically waits until it is visible, enabled, and ready, making tests more reliable. After each action, it verifies the expected result using assertions. At the end of execution, Playwright can generate reports, screenshots, videos, and traces to help analyze any failures.
