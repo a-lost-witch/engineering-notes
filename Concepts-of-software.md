@@ -79,3 +79,6 @@ Minecraft
 # 6. What is Utility Software?
 # 7. What is GUI?
 # 8. What is CUI?
+
+# 9. What is a workstation?
+A workstation is a high-performance computer designed for professional and technical work that requires more processing power, memory, reliability, or graphics capability than a typical personal computer (PC).
