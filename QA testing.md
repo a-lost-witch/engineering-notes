@@ -536,3 +536,9 @@ Creates: package.json
 
 # 38. How does Playwright work?
 Playwright works by controlling a real browser through its automation APIs. A test script launches a browser, creates an isolated browser context, opens a page, and performs actions such as clicking buttons or entering text. Before interacting with an element, Playwright automatically waits until it is visible, enabled, and ready, making tests more reliable. After each action, it verifies the expected result using assertions. At the end of execution, Playwright can generate reports, screenshots, videos, and traces to help analyze any failures.
+
+# 39. What is Playwright inspector?
+The Playwright Inspector is a native, graphical user interface (GUI) tool provided by Microsoft's Playwright framework designed to help developers and QA engineers author, record, and debug automated web tests line by line. It operates alongside a live browser window to display the real-time execution flow of your automation scripts
+
+# 40. What is asynchronous function using Promises?
+An asynchronous function using Promises is a JavaScript function that performs a non-blocking operation (like fetching data, reading files, or waiting for a timer) and immediately returns a Promise object instead of the final value. The returned Promise acts as a temporary placeholder representing the future completion or failure of that background task.
