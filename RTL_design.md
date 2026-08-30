@@ -17,3 +17,15 @@ Here, "10110110" is the direct bit string
 
 ### 5. Explain sll vs sla.
 
+### 6. Can flip flops be level triggered?
+Level triggered flip-flop are basically latches. Level-triggered flip-flops respond to the input signals as long as the clock signal remains at the triggering level (either HIGH or LOW). This is different from edge triggering, where the flip-flop responds only at the moment of a clock transition (rising or falling edge). Suppose we have a D flip-flop that is level-triggered HIGH:
+
+When the clock (CLK) is HIGH, the output Q follows the input D.
+When the clock goes LOW, the output Q holds its last value, regardless of changes in D.
+
+| CLK | D | Q (Output) |
+|:---:|:-:|:----------:|
+|  0  | 1 |     Q      |
+|  1  | 1 |     1      |
+|  1  | 0 |     0      |
+|  0  | 0 |     Q      |
