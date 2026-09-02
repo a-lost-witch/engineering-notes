@@ -29,3 +29,6 @@ When the clock goes LOW, the output Q holds its last value, regardless of change
 |  1  | 1 |     1      |
 |  1  | 0 |     0      |
 |  0  | 0 |     Q      |
+
+### 7. What are constraint files in Vivado?
+In Vivado, a constraint file is a file that tells Vivado how your VHDL etc design should be connected to the real FPGA hardware.
