@@ -8,3 +8,6 @@
 
 # what is the default unit of resistance?
 Ohm
+
+# what is voltage started with?
+v
