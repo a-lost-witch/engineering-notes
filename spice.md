@@ -3,4 +3,8 @@
 # What is Node?
 
 # What is Resistance started with R?
-r
+
+# What is circuit file extension in spice?
+
+# what is the default unit of resistance?
+Ohm
