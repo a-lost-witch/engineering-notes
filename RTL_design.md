@@ -32,3 +32,6 @@ When the clock goes LOW, the output Q holds its last value, regardless of change
 
 ### 7. What are constraint files in Vivado?
 In Vivado, a constraint file is a file that tells Vivado how your VHDL etc design should be connected to the real FPGA hardware.
+
+### 8. What is behavioral modeling?
+Here everything has to be described, cause it's a stupid baby e.g in adder, if input A = 0, B= 1, output is 1, else... no logic needed, aka no need to tell the code that XOR gate etc needed
