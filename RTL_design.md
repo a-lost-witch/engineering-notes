@@ -35,3 +35,11 @@ In Vivado, a constraint file is a file that tells Vivado how your VHDL etc desig
 
 ### 8. What is behavioral modeling?
 Here everything has to be described, cause it's a stupid baby e.g in adder, if input A = 0, B= 1, output is 1, else... no logic needed, aka no need to tell the code that XOR gate etc needed
+
+### 9. What is generic?
+A Generic is a parameter that lets you configure a design without changing its internal code.
+For e.g: In
+Generic (
+    N : positive := 4
+);
+If no other value is specified when creating an instance of the circuit, 4 will be taken as the default value.
