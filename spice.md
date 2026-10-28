@@ -9,5 +9,5 @@
 # what is the default unit of resistance?
 Ohm
 
-# what is voltage started with?
-v
+# what is E, F, G, H?
+Voltage-Controlled Voltage Source (VCVS), Current-Controlled Current Source (CCCS), Voltage-Controlled Current Source (VCCS), Current-Controlled Voltage Source (CCVS)
