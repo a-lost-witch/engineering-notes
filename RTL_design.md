@@ -56,3 +56,6 @@ output changes if any of these inputs mentioned within brackets change, i.e. any
 
 ### 11. What is entity?
 It declares input and output.
+
+### What is sensitivity?
+A process executes whenever a signal in its sensitivity list changes.
