@@ -50,3 +50,6 @@ A process in VHDL is the basic construct for describing behavior that executes s
 The signals inside the sensitivity list determine when the process executes. e.g. in
 ```process (EN, I0, I1, I2, I3, I4, I5, I6, I7, S2, S1, S0)```,
 output changes if any of these inputs mentioned within brackets change, i.e. any change in signal means process will execute.
+
+### 11. What is entity?
+It declares input and output.
