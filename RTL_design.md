@@ -46,3 +46,7 @@ If no other value is specified when creating an instance of the circuit, 4 will 
 
 ### 10. What is process?
 A process in VHDL is the basic construct for describing behavior that executes sequentially, inside an architecture that is otherwise concurrent. Everything in an architecture body (concurrent signal assignments, component instances) runs in parallel. But many things are easier to express as step-by-step logic: if/else, case, loops, and so on. Those sequential statements are only allowed inside a process (or a subprogram). The process itself is a concurrent statement, so multiple processes run in parallel with each other, while the statements inside each one execute in order.
+
+The signals inside the sensitivity list determine when the process executes. e.g. in
+```process (EN, I0, I1, I2, I3, I4, I5, I6, I7, S2, S1, S0)```,
+output changes if any of these inputs mentioned within brackets change, i.e. any change in signal means process will execute.
