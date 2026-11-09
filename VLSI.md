@@ -96,8 +96,31 @@ Setup time (tsu) is the minimum time that the data input must be stable before t
 Metastability is a condition where a flip-flop cannot immediately decide whether to store a 0 or a 1.
 It occurs when setup or hold time requirements are violated, causing the output to take an unpredictable amount of time to settle to a valid logic 0 or logic 1.
 
-# 12 What is buffer?
+# 12. What is buffer?
 A buffer is is a digital logic circuit that amplifies a signal's current drive strength without changing its logic level. It is basically an amplifier with a gain of 1. A basic buffer takes an input (0 or 1) and outputs the exact same logic value. It is typically built by chaining two inverters together (double inversion) in series. It provides a high input impedance and low output impedance, isolating the source circuit from heavy loads. It is used To maintain a specific voltage across a load. The advantage of a buffer is that if the load changes the voltage across stays the same - which is not the case in an ordinary voltage division. It achieves isolation through the high-input-impedance MOS gate and achieves higher current drive by using a CMOS output stage with larger PMOS and NMOS transistors that source and sink current from VDD and GND.
 
-# 13 What is Fan in and Fan out?
+# 13. What is Fan in and Fan out?
 Fan-in and fan-out refer to how signals, data, or tasks flow between components in electronics, software, and system design, where fan-in is the convergence of multiple inputs into a single point, and fan-out is the distribution of a single output to multiple destinations
+
+
+# 14. What is FSM?
+A finite state machine (FSM) is a computational model used to design algorithms and systems. It consists of a finite number of states, transitions between those states, and actions that can occur based on inputs. An FSM can be in only one state at a time, and it changes states in response to external inputs.
+
+Here’s a simple example of a finite state machine:
+
+Example: Turnstile
+
+Imagine a turnstile at a subway station. The turnstile has two states: "Locked" and "Unlocked."
+
+States:
+Locked
+Unlocked
+Inputs:
+Coin (insert a coin)
+Push (try to push the turnstile)
+Transitions:
+If the turnstile is in the "Locked" state and a coin is inserted (input: Coin), it transitions to the "Unlocked" state.
+If the turnstile is in the "Unlocked" state and someone pushes it (input: Push), it transitions back to the "Locked" state.
+Actions:
+In the "Locked" state, the turnstile does not allow entry.
+In the "Unlocked" state, it allows entry
