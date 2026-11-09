@@ -7,3 +7,6 @@ Voltage-Controlled Voltage Source (VCVS), Current-Controlled Current Source (CCC
 
 # What is .dat file?
 a data file that stores simulation results like waveforms etc
+
+# What is .PROBE?
+Saves simulation data for waveform viewing
