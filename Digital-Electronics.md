@@ -56,3 +56,6 @@ Binary = 1011
 
 - ### Analog to Digital Converters (ADCs)
  Used to minimize switching errors.
+
+# 5. What is gated latch?
+A latch with Enable (the pin that activates the circuit)
