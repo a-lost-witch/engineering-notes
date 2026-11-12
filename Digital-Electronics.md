@@ -65,3 +65,6 @@ A latch with Enable (the pin that activates the circuit)
 # 6. What is SR Latch?
 <img width="416" height="240" alt="image" src="https://github.com/user-attachments/assets/7d1b0874-f84f-4bb8-ad9f-701c9f934b9f" />
 
+# 7. What is JK Flip flop?
+ A JK flip-flop is a sequential circuit that stores one bit of information and has two control inputs, J and K. A JK flip-flop has four possible input combinations (unlike D flip flop which has 2). It uses feedback from its outputs to determine its next state. Unlike SR flip flop, JK flip-flop resolves forbidden state by redefining the J=K=1 condition as a toggle operation, where the output inverts its current state on each clock pulse
+
