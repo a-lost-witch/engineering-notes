@@ -61,3 +61,7 @@ Binary = 1011
 A latch with Enable (the pin that activates the circuit)
 
 <img width="460" height="250" alt="image" src="https://github.com/user-attachments/assets/69ac3ed4-2fe3-4b7f-ae03-ca892ecea8d7" />
+
+# 6. What is SR Latch?
+<img width="416" height="240" alt="image" src="https://github.com/user-attachments/assets/7d1b0874-f84f-4bb8-ad9f-701c9f934b9f" />
+
