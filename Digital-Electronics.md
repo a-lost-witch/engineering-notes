@@ -59,4 +59,5 @@ Binary = 1011
 
 # 5. What is gated latch?
 A latch with Enable (the pin that activates the circuit)
+
 <img width="460" height="250" alt="image" src="https://github.com/user-attachments/assets/69ac3ed4-2fe3-4b7f-ae03-ca892ecea8d7" />
