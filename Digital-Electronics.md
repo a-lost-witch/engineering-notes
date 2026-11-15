@@ -68,3 +68,5 @@ A latch with Enable (the pin that activates the circuit)
 # 7. What is JK Flip flop?
  A JK flip-flop is a sequential circuit that stores one bit of information and has two control inputs, J and K. A JK flip-flop has four possible input combinations (unlike D flip flop which has 2). It uses feedback from its outputs to determine its next state. Unlike SR flip flop, JK flip-flop resolves forbidden state by redefining the J=K=1 condition as a toggle operation, where the output inverts its current state on each clock pulse
 
+# 8. What is the difference between T & JK flipflop?
+When input=0, Q becomes 0 for JK flip flop while T holds state while when input=1,Q becomes 1 in JK while it toggles in T. Jk flip flop is used for Registers, data storage while T is used for Toggle operation in Counters, frequency division etc
