@@ -14,7 +14,6 @@ Node voltage is the electric potential difference between a particular node and 
 
 ## 5. What is Branch Current?
 A branch is a part of a circuit between two nodes that contains one or more circuit elements connected in series.
-
 Branch current is the electric current flowing through that particular branch.
 
 For example, consider a resistor connected between nodes A and B.
@@ -45,3 +44,7 @@ Therefore,
 $$
 \boxed{I = 50 \text{ mA}}
 $$
+
+## 6. How to identify components in series and parallel?
+- **Series:** Two components are in series if they share a common node and NO other component is connected to that node. The same current flows through both.
+- **Parallel:** Two components are in parallel if both their terminals are connected to the exact same two nodes. They have the same voltage across them.
