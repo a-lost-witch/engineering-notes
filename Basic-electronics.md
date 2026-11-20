@@ -48,3 +48,17 @@ $$
 ## 6. How to identify components in series and parallel?
 - **Series:** Two components are in series if they share a common node and NO other component is connected to that node. The same current flows through both.
 - **Parallel:** Two components are in parallel if both their terminals are connected to the exact same two nodes. They have the same voltage across them.
+
+**Example:**
+<img width="266" height="116" alt="image" src="https://github.com/user-attachments/assets/5ec5715b-da51-44d4-a26a-45ac9d36fc06" />
+Let's name the important nodes:
+- Node A: Junction of R1, Ri and R2.
+- Node B: Junction of R2, R0 and RL.
+- Node C: Junction of the dependent voltage source and R0.
+- Ground: The entire bottom horizontal wire.
+- 
+Here The dependent voltage source \(2\times10^5 V_1\) is series with Ri. For two components to be parallel, they must have both terminals connected to the same nodes.
+- Ri: Node A and Ground.
+- Dependent voltage source: Node C and Ground.
+
+R2 and RL are also in series as while They share node B, their other terminals are different. Similarly, Ri and RL are in series. hey share ground, but their upper terminals are different.
