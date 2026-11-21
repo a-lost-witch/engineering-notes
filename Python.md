@@ -396,19 +396,6 @@ print("Hello World")
 Hello World
 ```
 
-## 7. What is the Difference Between Compiled and Interpreted Languages?
-
-### Answer:
-
-| Compiled Language | Interpreted Language |
-|---|---|
-| Source code is compiled before execution. | Source code is executed through an interpreter. |
-| Traditionally produces machine code or an executable. | Traditionally executes instructions through an interpreter. |
-| Compilation can identify certain errors before execution. | Many errors are encountered during execution. |
-| Examples: C and C++. | Examples: Python and JavaScript. |
-
- The distinction is not absolute. Python also performs compilation internally, and modern JavaScript engines use compilation techniques.
-
 
 ## 23. Is Python a Dynamically Typed Language?
 
@@ -465,3 +452,16 @@ print(type(a))
 | Variable types are checked before program execution, typically during compilation. | Types are checked at runtime. |
 | Variables generally have declared or inferred fixed types. | A variable can refer to objects of different types. |
 | Example: C, C++. | Example: Python, JavaScript. |
+
+## 25. What is the Difference Between Compiled and Interpreted Languages?
+
+### Answer:
+
+| Compiled Language | Interpreted Language |
+|---|---|
+| Source code is compiled before execution. | Source code is executed through an interpreter. |
+| Traditionally produces machine code or an executable. | Traditionally executes instructions through an interpreter. |
+| Compilation can identify certain errors before execution. | Many errors are encountered during execution. |
+| Examples: C and C++. | Examples: Python and JavaScript. |
+
+ The distinction is not absolute. Python also performs compilation internally, and modern JavaScript engines use compilation techniques.
