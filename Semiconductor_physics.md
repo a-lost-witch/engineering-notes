@@ -7,3 +7,9 @@ A primitive cell is the smallest unit cell that can be repeated to form the latt
 
 # 3. What are the types defect in lattice?
 In an ideal single-crystal lattice, the atoms are arranged in a perfect periodic arrangement.In an ideal single-crystal lattice, the atoms are arranged in a perfect periodic arrangement. in a real crystal, an atom may be missing from a particular lattice site. This defect is referred to as a **vacancy**. An atom may be located between lattice sites. This defect is referred to as an **interstitial.** A **Frenkel defect** is a type of point defect in crystalline solids where an atom or ion (typically a smaller cation) leaves its regular lattice site to occupy an interstitial position, creating a vacancy-interstitial pair. This vacancy–interstitial defect, also known as a Frenkel defect, produces different effects than the simple vacancy or interstitial. line defect occurs when an entire row of atoms is missing from its normal lattice site. This defect is referred to as a line dislocation.
+
+# 4. What is spatial variation?
+spatial variation refers to the differences in device characteristics or process parameters across different physical locations on a semiconductor wafer or within a specific die.  This phenomenon arises from non-uniformities in fabrication steps such as lithography, etching, and chemical-mechanical planarization, leading to deviations from designed values that depend on the component's position rather than just random noise.
+
+# 5. What is electronics flux density?
+Electron flux density is a measure of the number of electrons passing through a unit area per unit time, often expressed in units of electrons·(cm²·s)⁻¹
