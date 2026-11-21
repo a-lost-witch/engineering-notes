@@ -4,3 +4,6 @@ All of those energy levels will interact and pack onto one another, forming what
 
 # 2. What is Primitive Cell?
 A primitive cell is the smallest unit cell that can be repeated to form the lattice. The periodic arrangement of atoms in the crystal is called the lattice.
+
+# 3. What are the types defect in lattice?
+In an ideal single-crystal lattice, the atoms are arranged in a perfect periodic arrangement.In an ideal single-crystal lattice, the atoms are arranged in a perfect periodic arrangement. in a real crystal, an atom may be missing from a particular lattice site. This defect is referred to as a vacancy. An atom may be located between lattice sites. This defect is referred to as an interstitial This vacancy–interstitial defect, also known as a Frenkel defect, produces different effects than the simple vacancy or interstitial. 
