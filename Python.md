@@ -363,4 +363,105 @@ def test2():
     return "Hello"
 ```
 
-## 21. What is key value vs variable value?
+## 21. What are the main features of Python?
+
+### Answer:
+- Easy to learn: Python has simple and readable syntax.
+- Interpreted: Python code is executed by the Python interpreter.
+- Dynamically typed: We don't need to declare the data type of a variable explicitly.
+- Object-oriented: Python supports classes, objects, inheritance, polymorphism, etc.
+- High-level language: It abstracts many low-level programming details, such as manual memory management.
+- Portable: Python programs can run on different operating systems with suitable Python environments.
+-Open-source: Python is freely available to use and modify.
+- Extensive libraries: Python provides libraries for data analysis, machine learning, web development, automation and more.
+- Extensible: Python can work with code written in other languages, such as C and C++.
+
+
+## 22. Is Python Compiled or Interpreted?
+
+### Answer:
+Python is generally considered an interpreted language, but internally it uses both compilation and interpretation.
+When we execute a Python program:
+
+1. The Python source code (`.py`) is compiled into bytecode.
+2. The Python Virtual Machine (PVM) executes that bytecode.
+
+### Example:
+```python
+print("Hello World")
+```
+
+### Output:
+```text
+Hello World
+```
+
+## 7. What is the Difference Between Compiled and Interpreted Languages?
+
+### Answer:
+
+| Compiled Language | Interpreted Language |
+|---|---|
+| Source code is compiled before execution. | Source code is executed through an interpreter. |
+| Traditionally produces machine code or an executable. | Traditionally executes instructions through an interpreter. |
+| Compilation can identify certain errors before execution. | Many errors are encountered during execution. |
+| Examples: C and C++. | Examples: Python and JavaScript. |
+
+ The distinction is not absolute. Python also performs compilation internally, and modern JavaScript engines use compilation techniques.
+
+
+## 23. Is Python a Dynamically Typed Language?
+
+### Answer:
+Yes, Python is a dynamically typed language. It means that we don't need to explicitly declare the data type of a variable. Python determines the type at runtime based on the value assigned to it.
+
+### Example:
+```python
+x = 10
+print(type(x))
+
+x = "Hello"
+print(type(x))
+
+x = 10.5
+print(type(x))
+```
+
+### Output:
+```text
+<class 'int'>
+<class 'str'>
+<class 'float'>
+```
+
+## 24. What Does Dynamically Typed Mean?
+
+### Answer:
+Dynamically typed means that the type associated with a variable is determined during program execution rather than being explicitly declared beforehand. In Python, a variable can refer to different types of objects during program execution.
+
+### Example:
+```python
+a = 100
+print(type(a))
+
+a = "Python"
+print(type(a))
+
+a = 25.5
+print(type(a))
+```
+
+### Output:
+```text
+<class 'int'>
+<class 'str'>
+<class 'float'>
+```
+
+### Difference Between Static and Dynamic Typing:
+
+| Static Typing | Dynamic Typing |
+|---|---|
+| Variable types are checked before program execution, typically during compilation. | Types are checked at runtime. |
+| Variables generally have declared or inferred fixed types. | A variable can refer to objects of different types. |
+| Example: C, C++. | Example: Python, JavaScript. |
