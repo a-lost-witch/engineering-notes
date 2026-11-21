@@ -13,3 +13,13 @@ spatial variation refers to the differences in device characteristics or process
 
 # 5. What is electronics flux density?
 Electron flux density is a measure of the number of electrons passing through a unit area per unit time, often expressed in units of electrons·(cm²·s)⁻¹
+
+# 6. What is Fick's laws of diffusion?
+Fick's first law: Movement of particles from high to low concentration (diffusive flux) is directly proportional to the particle's concentration gradient.
+\[
+\boxed{J=-D\frac{dC}{dx}}
+\]
+where J is diffusion flux (measures the amount of substance that will flow through a unit area during a unit time interval). D is diffusion coefficient. C is concentration. x is position
+
+
+
