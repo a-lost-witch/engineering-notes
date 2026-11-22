@@ -25,6 +25,8 @@ where J is diffusion flux (measures the amount of substance that will flow throu
 
 
 
-## 7. What is rate of accumulation?
-
+# 7. What is rate of accumulation?
 Rate of accumulation = Rate entering - Rate leaving + Generation - Recombination
+
+# 8. What is Fermi Dirac distribution?
+f(E) is the probabilty of occupancy for energy level E
