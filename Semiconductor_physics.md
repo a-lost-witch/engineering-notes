@@ -27,11 +27,4 @@ where J is diffusion flux (measures the amount of substance that will flow throu
 
 ## 7. What is rate of accumulation?
 
-\[
-\boxed{\text{Rate of accumulation}
-=
-\text{Rate entering}
--\text{Rate leaving}
-+\text{Generation}
--\text{Recombination}}
-\]
+Rate of accumulation = Rate entering - Rate leaving + Generation - Recombination
