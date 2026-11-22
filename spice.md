@@ -1,7 +1,7 @@
 # 1. What is spice?
-A node is a point or a continuous conducting path in an electrical circuit where two or more circuit elements are connected. It is a region of a circuit where the voltage is the same.
 
 # 2. What is Node?
+A node is a point or a continuous conducting path in an electrical circuit where two or more circuit elements are connected. It is a region of a circuit where the voltage is the same.
 
 # 3. What is E, F, G, H?
 E = Voltage-Controlled Voltage Source (VCVS), F = Current-Controlled Current Source (CCCS), G= Voltage-Controlled Current Source (VCCS), H= Current-Controlled Voltage Source (CCVS)
