@@ -38,10 +38,7 @@ Input voltage	Current through resistor
 10 V	10 mA
 
 Using Ohm's law:
-\[
-I=\frac{V}{R}
-\]
-
+I=V/R
 The simulator calculates the circuit's DC operating condition at every voltage step.The graph shows how the output current changes as the input voltage changes.
 
 # 9. What is node analysis and mesh analysis?
