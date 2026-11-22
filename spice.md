@@ -1,4 +1,5 @@
 # 1. What is spice?
+A node is a point or a continuous conducting path in an electrical circuit where two or more circuit elements are connected. It is a region of a circuit where the voltage is the same.
 
 # 2. What is Node?
 
@@ -42,3 +43,8 @@ I=\frac{V}{R}
 \]
 
 The simulator calculates the circuit's DC operating condition at every voltage step.The graph shows how the output current changes as the input voltage changes.
+
+# 9. What is node analysis and mesh analysis?
+**Nodal analysis** is a method of circuit analysis in which we calculate the voltages at different nodes in a circuit with respect to a reference node (ground). Uses Kirchhoff's Current Law (KCL).
+
+**Mesh analysis** is a method of circuit analysis in which we calculate currents circulating through different meshes (independent loops) of a circuit. It Uses Kirchhoff's Voltage Law (KVL).
