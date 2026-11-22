@@ -29,4 +29,10 @@ where J is diffusion flux (measures the amount of substance that will flow throu
 Rate of accumulation = Rate entering - Rate leaving + Generation - Recombination
 
 # 8. What is Fermi Dirac distribution?
-f(E) is the probabilty of occupancy for energy level E
+f(E) is the probabilty of occupancy for energy level E.
+
+# 9. Explain Fermi Dirac graph.
+<img width="296" height="257" alt="image" src="https://github.com/user-attachments/assets/5e02a3c9-cc54-43e7-b806-f7be8e5d9bd4" />
+
+In graph of probabilty of occupancy of given energy level vs energy, At 0 kelvin, since no electricity flow occurs in semicon, all electrons are in valence band and not conduction band. So the probabilty of finding an electron in valence band is 1 while 0 in conduction band. As we increase the temperature, probability of occupancy below fermi energy level will reduce and vice versa.
+
