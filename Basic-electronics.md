@@ -1,18 +1,27 @@
 ## 1. What is a current source?
 A current source is a component that tries to maintain a specified amount of current flowing through a circuit, even when the voltage across it changes.
 
-## 2. Why is biasing in electronics circuit (like the current/ voltage necessary to facilitate a device) and why is it called biasing?
+## 2. What is inductor?
+Inductors are coils of wires storing magnetic energy.
+
+## 3. What are active components?
+Produce/amplify energy.
+
+## 4. What are semiconductors?
+Components whose conductivity can be altered using conditions like temperature, light, impurities
+
+## 5. Why is biasing in electronics circuit (like the current/ voltage necessary to facilitate a device) and why is it called biasing?
 A circuit starts when it receives its power supply (e.g. 5 V, 12 V). Biasing is the deliberate DC voltage or current applied to individual devices so they operate in the correct region, especially in analog circuits. Operating point (Q-point) is the steady DC voltage and current of a device when no input signal is applied.
 
-## 3. What is Parasitic Capacitance?
+## 6. What is Parasitic Capacitance?
 When two electrical conductors at different voltages are close together, the electric field between them causes unwanted electric charge to be stored on them; this effect is capacitance.
 
 All practical circuit elements such as inductors, diodes, and transistors have internal capacitance, which can cause their behavior to depart from that of ideal circuit elements. Additionally, there is always some capacitance between any two conductors; this can be significant with closely spaced conductors, such as adjacent wires or printed circuit board traces.
 
-## 4. What is node voltage?
+## 7. What is node voltage?
 Node voltage is the electric potential difference between a particular node and a chosen reference node (ground).
 
-## 5. What is Branch Current?
+## 8. What is Branch Current?
 A branch is a part of a circuit between two nodes that contains one or more circuit elements connected in series.
 Branch current is the electric current flowing through that particular branch.
 
@@ -45,6 +54,6 @@ $$
 \boxed{I = 50 \text{ mA}}
 $$
 
-## 6. How to identify components in series and parallel?
+## 9. How to identify components in series and parallel?
 - **Series:** Two components are in series if they share a common node and NO other component is connected to that node. The same current flows through both.
 - **Parallel:** Two components are in parallel if both their terminals are connected to the exact same two nodes. They have the same voltage across them.
