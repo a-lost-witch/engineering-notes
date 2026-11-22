@@ -57,3 +57,6 @@ $$
 ## 9. How to identify components in series and parallel?
 - **Series:** Two components are in series if they share a common node and NO other component is connected to that node. The same current flows through both.
 - **Parallel:** Two components are in parallel if both their terminals are connected to the exact same two nodes. They have the same voltage across them.
+
+## 10. How is data physically stored?
+In forms of charge (temporary), magnetic orientation (in a moving disc), light (in reflecting moving disc) and finding how 0 an 1 are stored.
