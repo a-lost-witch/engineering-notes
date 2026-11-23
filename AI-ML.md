@@ -26,3 +26,7 @@ There are several cost functions depending on the machine learning problem. E.g.
 
 <img width="236" height="85" alt="image" src="https://github.com/user-attachments/assets/abef2c25-2029-42f7-86dc-46fcac23f860" />
 
+# 8. What is the Statistical Approach?
+It is a method of Pattern Recognition. Pattern recognition is the process of identifying and classifying objects based on their features. The statistical approach uses mathematical and statistical techniques to identify patterns and classify data based on their features and probability distributions. E.g to distinguish between two flowers, Class A generally has smaller petal dimensions. When a new flower is introduced, The computer examines the characteristics and determines that it is more likely to belong to Class B.
+
+A pattern class is a category to which an object belongs. For example: C={A,B}. Here say A is rose & B sunflower.
