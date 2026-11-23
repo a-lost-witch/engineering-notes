@@ -4,7 +4,10 @@ AI (Artificial Intelligence) is the ability of machines to perform tasks that no
 # 2. What is Machine Learning?
 ML is a subset of AI where systems learn patterns from data without being explicitly programmed.
 
-# 3. . What are the types of ML?
+# 3. What are the types of ML?
 - Supervised Learning (labeled data)
 - Unsupervised Learning (unlabeled data)
 - Reinforcement Learning (reward-based learn
+
+# 4. What are the types of unsupervised learning?
+Clustering (k means), Dimension reduction
