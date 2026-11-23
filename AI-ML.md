@@ -14,3 +14,6 @@ Clustering (k means), Dimension reduction
 
 # 5. What is K mean clustering?
 Random k no. of points are chosen (say 3). Now say there are 3 fruits. The algo might or might not know the no. of points. It might incorrect assume there are 4 points too. Either way, nearby points are assigned to each of these 3 points in a cluster by calculating Euclidean distance. Then mean is calculated and process is repeated until 3 fruits (say apple, banana & mango are identified).
+
+# 6. What are the types of supervised learning?
+Classification and regression
