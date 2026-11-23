@@ -30,3 +30,8 @@ There are several cost functions depending on the machine learning problem. E.g.
 It is a method of Pattern Recognition. Pattern recognition is the process of identifying and classifying objects based on their features. The statistical approach uses mathematical and statistical techniques to identify patterns and classify data based on their features and probability distributions. E.g to distinguish between two flowers, Class A generally has smaller petal dimensions. When a new flower is introduced, The computer examines the characteristics and determines that it is more likely to belong to Class B.
 
 A pattern class is a category to which an object belongs. For example: C={A,B}. Here say A is rose & B sunflower.
+
+# 9. What is soft computing?
+Say, in order to recognise handwritten digits, handwriting might be unclear, fuzzy, noisy, Two different digits might look very similar etc. A traditional system that relies on strict rules may struggle with such imperfect information. Typically, traditional hard-computing algorithms heavily rely on concrete data and mathematical models to produce solutions to problems. We need a computational approach that can work with uncertainty, approximation and imprecision.
+
+Soft Computing is a collection of computational techniques that deal with uncertainty, imprecision, approximation and incomplete information to solve complex problems.  Fuzzy logic is a computational paradigm that entertains the uncertainties in data by using levels of truth rather than rigid 0s and 1s in binary. Next, neural networks which are computational models influenced by human brain functions. Finally, evolutionary computation is a term to describe groups of algorithm that mimic natural processes such as evolution and natural selection.
