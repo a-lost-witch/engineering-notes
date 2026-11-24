@@ -68,3 +68,8 @@ Suppose we discover that some features contain overlapping information.
 For example:
 - Number of bedrooms and number of bathrooms may be correlated.
 - Area and number of bedrooms may also be correlated.
+
+# 14. What is Traditional Rule-Based Expert System (TRBES)?
+An expert system must have knowledge explicitly coded into the system. A rule-based expert system is an expert system that encodes its knowledge in the form of IFI
+THEN rules. E.g.:
+Consider a medical expert system. IF temperature is high, THEN the person has a fever.
