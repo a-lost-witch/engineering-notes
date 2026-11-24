@@ -49,4 +49,4 @@ Process of finding deterministic character of an object
 # 12. What is hyperplane?
 In Support Vector Machines (SVM), a hyperplane is the decision boundary that separates data points of different classes in an N-dimensional feature space. ⁠ It is mathematically defined by the equation
 
-$w^T$x+b=0
+w<sup>T</sup>x+b=0
