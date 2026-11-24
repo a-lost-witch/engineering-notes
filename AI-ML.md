@@ -50,3 +50,6 @@ Process of finding deterministic character of an object
 In Support Vector Machines (SVM), a hyperplane is the decision boundary that separates data points of different classes in an N-dimensional feature space. ⁠ It is mathematically defined by the equation
 
 w<sup>T</sup>x+b=0
+
+# 13. What is dimensional reduction?
+In Machine Learning, dimensionality generally refers to the number of features or variables used to represent a data point. Dimensionality reduction is about reducing the number of these features while retaining as much useful information as possible.
