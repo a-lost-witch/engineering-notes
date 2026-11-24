@@ -42,3 +42,6 @@ In simple terms, a perceptron is a mathematical model that imitates the basic wo
 For example, imagine a machine that has to decide whether an email is:
 - Spam (+1)
 - Not spam (−1)
+
+# 11. What is feature exctraction/ engineering?
+Process of finding deterministic character of an object
