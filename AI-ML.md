@@ -21,7 +21,7 @@ Classification and regression
 # 7. What is Cost function analysis?
 For each data point, Error = Actual - Predicted
 But for total error, Positive and negative errors can cancel each other out. Positive and negative errors can cancel each other out. So, we use different mathematical methods to calculate the cost.
-A Cost Function is a mathematical function that measures the overall error of a machine learning model over a dataset.
+A Cost Function is a mathematical function that measures the overall error of a machine learning model over a dataset. Cost function measures how well model parameters fit thr training data by quantifying prediction error.
 There are several cost functions depending on the machine learning problem. E.g. Mean Squared Error
 
 <img width="236" height="85" alt="image" src="https://github.com/user-attachments/assets/abef2c25-2029-42f7-86dc-46fcac23f860" />
