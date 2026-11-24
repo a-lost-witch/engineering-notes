@@ -53,3 +53,18 @@ w<sup>T</sup>x+b=0
 
 # 13. What is dimensional reduction?
 In Machine Learning, dimensionality generally refers to the number of features or variables used to represent a data point. Dimensionality reduction is about reducing the number of these features while retaining as much useful information as possible.
+
+Let's take our house example.
+
+Initially, we have six features:
+- Area
+- Bedrooms
+- Bathrooms
+- Age
+- Distance from city
+- Balconies
+Suppose we discover that some features contain overlapping information.
+
+For example:
+- Number of bedrooms and number of bathrooms may be correlated.
+- Area and number of bedrooms may also be correlated.
