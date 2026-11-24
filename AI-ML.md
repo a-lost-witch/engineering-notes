@@ -47,5 +47,6 @@ For example, imagine a machine that has to decide whether an email is:
 Process of finding deterministic character of an object
 
 # 12. What is hyperplane?
-In Support Vector Machines (SVM), a hyperplane is the decision boundary that separates data points of different classes in an N-dimensional feature space. ⁠ It is mathematically defined by the equation 
+In Support Vector Machines (SVM), a hyperplane is the decision boundary that separates data points of different classes in an N-dimensional feature space. ⁠ It is mathematically defined by the equation
+
 $w^T$x+b=0
