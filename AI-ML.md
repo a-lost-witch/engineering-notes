@@ -75,4 +75,4 @@ THEN rules. E.g.:
 Consider a medical expert system. IF temperature is high, THEN the person has a fever.
 
 # 15. Why linear decision function cant seperate XOR gate?
-AND: only (1,1) is 1. You can draw a line cutting off that one corner. OR only (0,0) is 0. You can draw a line cutting off that one corner. In both cases, the 1s are on one side and the 0s on the other, so one straight line separates them. This is called being linearly separable. For XOR, the 1s are at (0,1) and (1,0), which are opposite corners of the square. The 0s are at (0,0) and (1,1), which are the other two opposite corners.
+AND: only (1,1) is 1. You can draw a line cutting off that one corner. OR only (0,0) is 0. You can draw a line cutting off that one corner. In both cases, the 1s are on one side and the 0s on the other, so one straight line separates them. This is called being linearly separable. For XOR, the 1s are at (0,1) and (1,0), which are opposite corners of the square. The 0s are at (0,0) and (1,1), which are the other two opposite corners. The concept of multiple neuron comes to overcome this problem 
